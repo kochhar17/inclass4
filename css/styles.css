@@ -1,0 +1,111 @@
+/* Move h1 inline CSS to external styles.css */
+h1 {
+    color: blue;
+}
+
+/* Move internal CSS to styles.css with descendant selector */
+header aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header aside ul li {
+    display: inline;
+}
+
+header aside ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+header aside ul li a:hover {
+    color: red;
+}
+
+/* Create rulesets for nav using descendant selectors */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: rgb(107, 99, 68);
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: rgb(41, 22, 22);
+    background-color: indigo;
+    border: 2px solid rgb(100, 48, 48);
+}
+
+/* Form styling */
+form {
+    border: 5px dashed #336699;
+    padding: 5px;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+/* Radio and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+/* Common styling for select, option, label, legend, input[type=submit] */
+select,
+option,
+label,
+legend,
+input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* Textarea styling */
+textarea {
+    width: 50%;
+    display: block;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: none;
+
+    /* Set the background color to black for the contact.html page */
+.contact-body {
+    background-color: black;
+}
+
+/* Form styling */
+form {
+    border: 5px dashed #336699;
+    padding: 5px;
+    background-color: blue; /* Add this line for the form background color */
+}
+
+/* Rest of the styles remain unchanged */
+/* ... */
+
+}

@@ -1,0 +1,14 @@
+/* Set the background color to black */
+body {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+/* Form styling */
+form {
+    border: 5px dashed #336699;
+    padding: 5px;
+    background-color: white; /* Add this line for the form background color */
+}
+
+/* Rest of the styles remain unchanged */
+/* ... */
